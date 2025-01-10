@@ -1,0 +1,206 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MobileShopManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:MobileShopManagementSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MobileShopManagementSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MobileShopManagementSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MobileShopManagementSystem.My.Resources.Resources.kashipara">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MobileShopManagementSystem.My.Resources.Resources.s_l1000">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet.customerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet.mobileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet.customerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet.mobileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet.customerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet.mobileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSetTableAdapters.customerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSetTableAdapters.mobileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MobileShopManagementSystem.MobileDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MobileShopManagementSystem.MobileDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MobileShopManagementSystem.MobileDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager.UpdateAll(MobileShopManagementSystem.MobileDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1.customerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1.mobileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1.customerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1.mobileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1.customerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1.mobileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1TableAdapters.customerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1TableAdapters.mobileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MobileShopManagementSystem.MobileDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MobileShopManagementSystem.MobileDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MobileShopManagementSystem.MobileDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager.UpdateAll(MobileShopManagementSystem.MobileDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MobileShopManagementSystem.MobileDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
